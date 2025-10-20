@@ -37,8 +37,21 @@ export default defineConfig({
   /* Configure projects for major browsers */
   projects: [
     {
+      name: 'Test Env Setup',
+      // use:
+      // {
+      //   baseURL:'https://test.numitosandbox.com/login'
+      // },
+      testMatch: /.*\.setup\.ts/
+    },
+    {
       name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
+      testIgnore: /.*\.setup\.ts/,
+      use: { ...devices['Desktop Chrome'],
+        //use existing storage state
+            storageState: './UserLoginDetails.json',
+       },
+      dependencies: ['Test Env Setup'] 
     },
 
     // {

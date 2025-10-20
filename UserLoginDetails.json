@@ -1,0 +1,55 @@
+{
+  "cookies": [
+    {
+      "name": "language",
+      "value": "en",
+      "domain": "demo.owasp-juice.shop",
+      "path": "/",
+      "expires": 1792456131,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "welcomebanner_status",
+      "value": "dismiss",
+      "domain": "demo.owasp-juice.shop",
+      "path": "/",
+      "expires": 1792456131,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "cookieconsent_status",
+      "value": "dismiss",
+      "domain": "demo.owasp-juice.shop",
+      "path": "/",
+      "expires": 1792456131,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "token",
+      "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6MjUsInVzZXJuYW1lIjoiIiwiZW1haWwiOiJzaGlscGFzYXV0b21hdGlvbkBnbWFpbC5jb20iLCJwYXNzd29yZCI6IjI0ODdkYzQxZThjNTVkNzZjNDJkNjE2MWQ2NDNlZDdmIiwicm9sZSI6ImN1c3RvbWVyIiwiZGVsdXhlVG9rZW4iOiIiLCJsYXN0TG9naW5JcCI6IjAuMC4wLjAiLCJwcm9maWxlSW1hZ2UiOiIvYXNzZXRzL3B1YmxpYy9pbWFnZXMvdXBsb2Fkcy9kZWZhdWx0LnN2ZyIsInRvdHBTZWNyZXQiOiIiLCJpc0FjdGl2ZSI6dHJ1ZSwiY3JlYXRlZEF0IjoiMjAyNS0xMC0xOSAyMzozNzo1My4xNTAgKzAwOjAwIiwidXBkYXRlZEF0IjoiMjAyNS0xMC0xOSAyMzozNzo1My4xNTAgKzAwOjAwIiwiZGVsZXRlZEF0IjpudWxsfSwiaWF0IjoxNzYwOTIwMTMyfQ.OaE8tJNDZLHDQbqQQlcrapczdMA0z__0yjc0nf1QeH36vHh9KfhpFTOqNzGF5Xf8zfoO-n-rYnr5FydMLmH6YZcxXyQb9TLIbXvl3NQVsBTqBwGovVb6PLMV9RfphTVB9qppqcvhIYYdMdraapBzMHEXL27e5JNIgXA1XmFQ8bM",
+      "domain": "demo.owasp-juice.shop",
+      "path": "/",
+      "expires": 1760948932,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://demo.owasp-juice.shop",
+      "localStorage": [
+        {
+          "name": "token",
+          "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6MjUsInVzZXJuYW1lIjoiIiwiZW1haWwiOiJzaGlscGFzYXV0b21hdGlvbkBnbWFpbC5jb20iLCJwYXNzd29yZCI6IjI0ODdkYzQxZThjNTVkNzZjNDJkNjE2MWQ2NDNlZDdmIiwicm9sZSI6ImN1c3RvbWVyIiwiZGVsdXhlVG9rZW4iOiIiLCJsYXN0TG9naW5JcCI6IjAuMC4wLjAiLCJwcm9maWxlSW1hZ2UiOiIvYXNzZXRzL3B1YmxpYy9pbWFnZXMvdXBsb2Fkcy9kZWZhdWx0LnN2ZyIsInRvdHBTZWNyZXQiOiIiLCJpc0FjdGl2ZSI6dHJ1ZSwiY3JlYXRlZEF0IjoiMjAyNS0xMC0xOSAyMzozNzo1My4xNTAgKzAwOjAwIiwidXBkYXRlZEF0IjoiMjAyNS0xMC0xOSAyMzozNzo1My4xNTAgKzAwOjAwIiwiZGVsZXRlZEF0IjpudWxsfSwiaWF0IjoxNzYwOTIwMTMyfQ.OaE8tJNDZLHDQbqQQlcrapczdMA0z__0yjc0nf1QeH36vHh9KfhpFTOqNzGF5Xf8zfoO-n-rYnr5FydMLmH6YZcxXyQb9TLIbXvl3NQVsBTqBwGovVb6PLMV9RfphTVB9qppqcvhIYYdMdraapBzMHEXL27e5JNIgXA1XmFQ8bM"
+        }
+      ]
+    }
+  ]
+}
