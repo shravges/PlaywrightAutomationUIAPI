@@ -14,6 +14,6 @@ test('Invalid user login - Negative test case', async({page}) => {
 
     await loginPage.loginToJuiceShop(commonData.juiceShopURL, invalidCredentials.invalidUserName, invalidCredentials.invalidPassword);
     let errMessage: string = await loginPage.checkInvalidLogin();
-    await expect(errMessage).toEqual("Invalid email or password.");
+    await expect(errMessage).toEqual("Invalid email or password."); 
   
 })
