@@ -13,4 +13,5 @@ test.skip('Validate adding items to basket', async({request})=>{
         //validate response code to be 201
         expect(response.status()).toBe(200);
 
-})
+});
+

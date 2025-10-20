@@ -73,8 +73,7 @@ export class CreateNewAddressPage extends BasePage{
     
 
     async deleteExistingAddresses(noOfAddresses: number)
-    {
-        //console.log("Total no. of addresses to be deleted = " +noOfAddresses.toString);
+    {        
         for(let i:number=1;i<=noOfAddresses;i++)
         {
                     await this.page.locator("//mat-table//mat-row["+i+"]//mat-cell[5]/button").click();

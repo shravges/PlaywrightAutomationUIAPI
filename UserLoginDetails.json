@@ -5,7 +5,7 @@
       "value": "en",
       "domain": "demo.owasp-juice.shop",
       "path": "/",
-      "expires": 1792456131,
+      "expires": 1792477909,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -15,7 +15,7 @@
       "value": "dismiss",
       "domain": "demo.owasp-juice.shop",
       "path": "/",
-      "expires": 1792456131,
+      "expires": 1792477909,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -25,17 +25,17 @@
       "value": "dismiss",
       "domain": "demo.owasp-juice.shop",
       "path": "/",
-      "expires": 1792456131,
+      "expires": 1792477909,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "token",
-      "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6MjUsInVzZXJuYW1lIjoiIiwiZW1haWwiOiJzaGlscGFzYXV0b21hdGlvbkBnbWFpbC5jb20iLCJwYXNzd29yZCI6IjI0ODdkYzQxZThjNTVkNzZjNDJkNjE2MWQ2NDNlZDdmIiwicm9sZSI6ImN1c3RvbWVyIiwiZGVsdXhlVG9rZW4iOiIiLCJsYXN0TG9naW5JcCI6IjAuMC4wLjAiLCJwcm9maWxlSW1hZ2UiOiIvYXNzZXRzL3B1YmxpYy9pbWFnZXMvdXBsb2Fkcy9kZWZhdWx0LnN2ZyIsInRvdHBTZWNyZXQiOiIiLCJpc0FjdGl2ZSI6dHJ1ZSwiY3JlYXRlZEF0IjoiMjAyNS0xMC0xOSAyMzozNzo1My4xNTAgKzAwOjAwIiwidXBkYXRlZEF0IjoiMjAyNS0xMC0xOSAyMzozNzo1My4xNTAgKzAwOjAwIiwiZGVsZXRlZEF0IjpudWxsfSwiaWF0IjoxNzYwOTIwMTMyfQ.OaE8tJNDZLHDQbqQQlcrapczdMA0z__0yjc0nf1QeH36vHh9KfhpFTOqNzGF5Xf8zfoO-n-rYnr5FydMLmH6YZcxXyQb9TLIbXvl3NQVsBTqBwGovVb6PLMV9RfphTVB9qppqcvhIYYdMdraapBzMHEXL27e5JNIgXA1XmFQ8bM",
+      "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6NDMsInVzZXJuYW1lIjoiIiwiZW1haWwiOiJzaGlscGFzYXV0b21hdGlvbkBnbWFpbC5jb20iLCJwYXNzd29yZCI6IjI0ODdkYzQxZThjNTVkNzZjNDJkNjE2MWQ2NDNlZDdmIiwicm9sZSI6ImN1c3RvbWVyIiwiZGVsdXhlVG9rZW4iOiIiLCJsYXN0TG9naW5JcCI6IjAuMC4wLjAiLCJwcm9maWxlSW1hZ2UiOiIvYXNzZXRzL3B1YmxpYy9pbWFnZXMvdXBsb2Fkcy9kZWZhdWx0LnN2ZyIsInRvdHBTZWNyZXQiOiIiLCJpc0FjdGl2ZSI6dHJ1ZSwiY3JlYXRlZEF0IjoiMjAyNS0xMC0yMCAwNjoxMDozNS41OTIgKzAwOjAwIiwidXBkYXRlZEF0IjoiMjAyNS0xMC0yMCAwNjoxMDozNS41OTIgKzAwOjAwIiwiZGVsZXRlZEF0IjpudWxsfSwiaWF0IjoxNzYwOTQxOTExfQ.npX91CfSlYY3QzJdlemYnSA0bbP30hJMZZPPR_B3Kn4tcLzoptJvr5GAgs9l1MCAJ3U4VmkzcKWnmUA_xnIXtIT5glsNqjmiS_j8PhOHhnxmj42dQPuff9BRGqlEBxcIuTieC00vbnfrRnU1OLWBol90Cmh4CbQuiEpvwmOgazs",
       "domain": "demo.owasp-juice.shop",
       "path": "/",
-      "expires": 1760948932,
+      "expires": 1760970710,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -47,7 +47,7 @@
       "localStorage": [
         {
           "name": "token",
-          "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6MjUsInVzZXJuYW1lIjoiIiwiZW1haWwiOiJzaGlscGFzYXV0b21hdGlvbkBnbWFpbC5jb20iLCJwYXNzd29yZCI6IjI0ODdkYzQxZThjNTVkNzZjNDJkNjE2MWQ2NDNlZDdmIiwicm9sZSI6ImN1c3RvbWVyIiwiZGVsdXhlVG9rZW4iOiIiLCJsYXN0TG9naW5JcCI6IjAuMC4wLjAiLCJwcm9maWxlSW1hZ2UiOiIvYXNzZXRzL3B1YmxpYy9pbWFnZXMvdXBsb2Fkcy9kZWZhdWx0LnN2ZyIsInRvdHBTZWNyZXQiOiIiLCJpc0FjdGl2ZSI6dHJ1ZSwiY3JlYXRlZEF0IjoiMjAyNS0xMC0xOSAyMzozNzo1My4xNTAgKzAwOjAwIiwidXBkYXRlZEF0IjoiMjAyNS0xMC0xOSAyMzozNzo1My4xNTAgKzAwOjAwIiwiZGVsZXRlZEF0IjpudWxsfSwiaWF0IjoxNzYwOTIwMTMyfQ.OaE8tJNDZLHDQbqQQlcrapczdMA0z__0yjc0nf1QeH36vHh9KfhpFTOqNzGF5Xf8zfoO-n-rYnr5FydMLmH6YZcxXyQb9TLIbXvl3NQVsBTqBwGovVb6PLMV9RfphTVB9qppqcvhIYYdMdraapBzMHEXL27e5JNIgXA1XmFQ8bM"
+          "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6NDMsInVzZXJuYW1lIjoiIiwiZW1haWwiOiJzaGlscGFzYXV0b21hdGlvbkBnbWFpbC5jb20iLCJwYXNzd29yZCI6IjI0ODdkYzQxZThjNTVkNzZjNDJkNjE2MWQ2NDNlZDdmIiwicm9sZSI6ImN1c3RvbWVyIiwiZGVsdXhlVG9rZW4iOiIiLCJsYXN0TG9naW5JcCI6IjAuMC4wLjAiLCJwcm9maWxlSW1hZ2UiOiIvYXNzZXRzL3B1YmxpYy9pbWFnZXMvdXBsb2Fkcy9kZWZhdWx0LnN2ZyIsInRvdHBTZWNyZXQiOiIiLCJpc0FjdGl2ZSI6dHJ1ZSwiY3JlYXRlZEF0IjoiMjAyNS0xMC0yMCAwNjoxMDozNS41OTIgKzAwOjAwIiwidXBkYXRlZEF0IjoiMjAyNS0xMC0yMCAwNjoxMDozNS41OTIgKzAwOjAwIiwiZGVsZXRlZEF0IjpudWxsfSwiaWF0IjoxNzYwOTQxOTExfQ.npX91CfSlYY3QzJdlemYnSA0bbP30hJMZZPPR_B3Kn4tcLzoptJvr5GAgs9l1MCAJ3U4VmkzcKWnmUA_xnIXtIT5glsNqjmiS_j8PhOHhnxmj42dQPuff9BRGqlEBxcIuTieC00vbnfrRnU1OLWBol90Cmh4CbQuiEpvwmOgazs"
         }
       ]
     }

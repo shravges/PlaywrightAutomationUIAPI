@@ -13,6 +13,7 @@ export class LoginPage extends BasePage{
     readonly headerAllProducts: Locator;
     readonly lnkAllProducts: Locator;
     readonly btnDismissCookies: Locator;
+    readonly divInvalidLogin: Locator;
    
     constructor(page:Page)
     {
@@ -27,6 +28,8 @@ export class LoginPage extends BasePage{
         this.btnLogin = page.getByRole('button', { name: 'Login', exact: true });  
         this.headerAllProducts = page.getByText("All Products");
         this.lnkAllProducts = page.locator("//mat-card");
+        this.divInvalidLogin = page.locator("div.error.ng-star-inserted");
+
 
     }
 
@@ -45,7 +48,11 @@ export class LoginPage extends BasePage{
         await this.clickOnElement(this.btnLogin);
 
         await this.waitForGivenTimeout(2000);
+    }
 
+    async checkInvalidLogin(): Promise<string>
+    {
+        return await this.getElementInnerText(this.divInvalidLogin);
     }
 
     async addProductToBasket(productName: string)

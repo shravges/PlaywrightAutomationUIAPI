@@ -19,3 +19,16 @@ test.skip('Validate checkout flow', async({request})=>{
         console.log("Confirmation reference receievd from checkout =" +confirmationRef);    
 
 })
+
+test('Validate unauthorized checkout', async({request})=>{
+       let response = await request.post('https://demo.owasp-juice.shop/api/BasketItems/', {
+            headers:{
+                Authorization: 'Bearer test'
+            },
+            data:{"ProductId":24,"BasketId":"6","quantity":1}
+        });
+     
+        //validate response code to be 401 as the authorization is not valid
+        expect(response.status()).toBe(401);
+
+})

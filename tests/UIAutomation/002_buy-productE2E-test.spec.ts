@@ -28,7 +28,6 @@ test('E2E product purchase test', async ({page}) => {
     const orderSummaryPage = new OrderSummaryPage(page);
 
     await loginPage.loginToJuiceShop(commonData.juiceShopURL, commonData.username, commonData.password);
-    //await page.goto(commonData.juiceShopURL);
     await loginPage.addProductToBasket(commonData.product); 
 
     let basketItems: string[] = await yourBasketPage.goToYourBasket();

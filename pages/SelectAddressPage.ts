@@ -44,6 +44,7 @@ export class SelectAddressPage extends BasePage{
         {
             //create new address for the delivery
             await this.createNewAddress(country,personName,mobileNumber,zipCode,address,city,state);
+            totalAddresses = totalAddresses+1;
         }
 
         for(let i:number=1;i<=totalAddresses;i++)

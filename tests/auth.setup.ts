@@ -1,7 +1,5 @@
 import { test as setup, expect, Locator } from '@playwright/test';
 import path from 'path';
-import { BasePage } from "../utils/base-page";
-
 
 
 setup('authenticate', async ({ page }) => {
