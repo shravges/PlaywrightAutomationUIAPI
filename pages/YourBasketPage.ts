@@ -19,7 +19,10 @@ export class YourBasketPage extends BasePage{
 
     }
 
-
+/**
+ * This function returns no. of items in the bakset
+ * @returns 
+ */
     async goToYourBasket(): Promise<string[]>
     {
         let productsInBasket =[];
@@ -42,7 +45,9 @@ export class YourBasketPage extends BasePage{
     }
 
 
-
+    /**
+     * This fucntion checkes out the basket
+     */
     async checkoutBasket()
     {
         await this.clickOnElement(this.btnCheckout);

@@ -32,7 +32,16 @@ export class SelectAddressPage extends BasePage{
         this.btnSubmit = page.locator("button#submitButton");
     }
 
-
+/**
+ * This function creates new address
+ * @param country 
+ * @param personName 
+ * @param mobileNumber 
+ * @param zipCode 
+ * @param address 
+ * @param city 
+ * @param state 
+ */
     async addDeliveryAddress(country:string,personName:string,mobileNumber:string,zipCode:string,address:string,city:string,state:string)
     {
         await this.waitForGivenTimeout(2000);

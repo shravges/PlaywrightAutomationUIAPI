@@ -13,6 +13,10 @@ export class OrderSummaryPage extends BasePage{
         this.headerOrderDone = page.getByRole("heading", {name: 'Thank you for your purchase!'});
     }
 
+    /**
+     * This function shows the order details
+     * @returns 
+     */
     async validateOrderConfirmed():  Promise<boolean>
     {
         await this.waitForGivenTimeout(2000);

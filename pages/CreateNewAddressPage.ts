@@ -36,7 +36,16 @@ export class CreateNewAddressPage extends BasePage{
         this.btnSubmit = page.locator("button#submitButton");
     }
 
-
+/**
+ * This function checks and creates new address
+ * @param country 
+ * @param name 
+ * @param mobileNumber 
+ * @param zipCode 
+ * @param address 
+ * @param city 
+ * @param state 
+ */
     async checkAndCreateAddress(country:string,name:string,mobileNumber:string,zipCode:string,address:string,city:string,state:string)
     {
         await this.waitForGivenTimeout(3000);
@@ -71,7 +80,10 @@ export class CreateNewAddressPage extends BasePage{
     
     }
     
-
+/**
+ * This function deletes the addresses
+ * @param noOfAddresses 
+ */
     async deleteExistingAddresses(noOfAddresses: number)
     {        
         for(let i:number=1;i<=noOfAddresses;i++)

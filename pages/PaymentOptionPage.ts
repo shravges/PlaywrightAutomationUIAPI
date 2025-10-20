@@ -25,7 +25,14 @@ export class PaymentOptionPage extends BasePage{
         this.btnSubmit = page.locator("button#submitButton");
     }
 
-
+/**
+ * This function creates new card for payment
+ * @param userNameOnCard 
+ * @param userCardNumber 
+ * @param cardExpiryMonth 
+ * @param cardExpiryYear 
+ * @param cardNumberEnding 
+ */
     async selectPaymentOptionCard(userNameOnCard:string, userCardNumber: string, cardExpiryMonth:string ,cardExpiryYear:string, cardNumberEnding: string)
     {
         await this.waitForGivenTimeout(1000);

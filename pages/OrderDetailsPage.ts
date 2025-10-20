@@ -14,6 +14,9 @@ export class OrderDetailsPage extends BasePage{
     }
 
 
+    /**
+     * This fucntion confirms the order
+     */
     async placeYourOrder()
     {
         await this.waitForGivenTimeout(2000);

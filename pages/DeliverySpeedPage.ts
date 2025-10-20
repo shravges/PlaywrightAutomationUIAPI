@@ -13,7 +13,10 @@ export class DeliverySpeedPage extends BasePage{
         this.btnContinue = page.getByText('Continue'); 
     }
 
-
+/**
+ * This function selects delivery speed/type
+ * @param deliveryType : 1 day , fast
+ */
     async selectDeliverySpeed(deliveryType:string)
     {
         await this.waitForGivenTimeout(1000);

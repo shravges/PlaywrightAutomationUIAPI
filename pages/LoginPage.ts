@@ -33,7 +33,12 @@ export class LoginPage extends BasePage{
 
     }
 
-
+/**
+ * THis function logins to the website
+ * @param url 
+ * @param username 
+ * @param password 
+ */
     async loginToJuiceShop(url: string, username:string, password:string)
     {
         await this.page.goto(url);
@@ -50,11 +55,19 @@ export class LoginPage extends BasePage{
         await this.waitForGivenTimeout(2000);
     }
 
+    /**
+     * This functions checks invalid login and returns the message shown on screen
+     * @returns 
+     */
     async checkInvalidLogin(): Promise<string>
     {
         return await this.getElementInnerText(this.divInvalidLogin);
     }
 
+    /**
+     * This function adds item to the basket
+     * @param productName 
+     */
     async addProductToBasket(productName: string)
     {
         await this.waitForGivenTimeout(4000);
