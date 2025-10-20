@@ -38,6 +38,7 @@ export class DeliverySpeedPage extends BasePage{
 
         await this.clickOnElement(this.btnContinue);
         console.log("Moved to next page from selec delivery type page");
+        
     }
 
 }
